@@ -1,13 +1,13 @@
 import React from 'react'
-import{BiLoaderAlt} from "react-icons/bi"
 
 function loading() {
   return (
-  
-    <div className="flex justify-center items-center mt-60">
-      <BiLoaderAlt className=' h-10 w-10  text-amber-600 ' />
+    
+    <div className="flex justify-center align-middle mt-[20%]">
+        
+        <img className='h-12' src='spinner.svg' alt='Loading...'/>
     </div>
-     
+    
   )
 }
 
